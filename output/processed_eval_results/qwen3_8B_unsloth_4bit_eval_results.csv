@@ -1,0 +1,9 @@
+,Manim Render Success,Syntax Error,CodeBLEU,CodeBERT Similarity,N-gram Match Score,Weighted N-gram Match Score,Syntax Match Score,AST Distance Norm,AST Distance Raw,AST Distance Max
+Base Mean,0.3,0.02,0.3508,0.9132,0.1463,0.2182,0.4221,0.5926,151.551,233.3367
+Fine-tuned Mean,0.34,0.01,0.3465,0.9152,0.1402,0.2169,0.4292,0.6057,165.9596,250.4343
+Base Std,0.4606,0.1407,0.1228,0.0772,0.123,0.1346,0.1364,0.1531,112.6892,138.9256
+Fine-tuned Std,0.4761,0.1,0.1263,0.0765,0.1217,0.1351,0.1372,0.15,122.2967,151.3125
+Base Min,False,False,0.1164,0.4997,0.0,0.0,0.0,0.131,11.0,61.0
+Fine-tuned Min,False,False,0.1469,0.5406,0.0,0.0,0.0,0.131,11.0,61.0
+Base Max,True,True,0.8573,0.9981,0.8507,0.9286,0.7333,0.992,558.0,769.0
+Fine-tuned Max,True,True,0.8573,0.9963,0.8507,0.9286,0.7333,0.9948,560.0,780.0

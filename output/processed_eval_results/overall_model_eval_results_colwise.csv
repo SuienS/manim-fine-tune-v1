@@ -1,0 +1,7 @@
+,manim_render_success_base,manim_render_success_finetuned,syntax_error_base,syntax_error_finetuned,codebert_similarity_base,codebert_similarity_finetuned,codebleu_base,codebleu_finetuned,ngram_match_score_base,ngram_match_score_finetuned,weighted_ngram_match_score_base,weighted_ngram_match_score_finetuned,syntax_match_score_base,syntax_match_score_finetuned,ast_distance_norm_base,ast_distance_norm_finetuned,ast_distance_raw_base,ast_distance_raw_finetuned,ast_distance_max_base,ast_distance_max_finetuned
+Qwen3 8B Unsloth 4-bit,0.3,0.34,0.02,0.01,0.9132,0.9152,0.3508,0.3465,0.1463,0.1402,0.2182,0.2169,0.4221,0.4292,0.5926,0.6057,151.551,165.9596,233.3367,250.4343
+Llama3 1.8B Unsloth 4-bit,0.31,0.38,0.01,0.0,0.9155,0.9184,0.3392,0.3463,0.1443,0.1545,0.2167,0.2209,0.4086,0.4042,0.617,0.607,160.8586,153.42,239.202,231.2
+CodeGemma 7B Unsloth 4-bit,0.38,0.4,0.01,0.01,0.9275,0.9184,0.3469,0.345,0.155,0.1553,0.223,0.2194,0.4034,0.4019,0.5931,0.5987,142.1111,143.7071,216.0303,215.8283
+DeepSeek Coder 1.3B,0.25,0.22,0.01,0.01,0.9195,0.9226,0.3063,0.3077,0.1376,0.1415,0.1989,0.2021,0.3585,0.3625,0.6427,0.6357,137.8384,134.8889,202.303,199.1919
+Qwen2.5 7B Coder Unsloth 4-bit,0.59,0.61,0.0,0.0,0.9318,0.9292,0.352,0.3483,0.1579,0.1516,0.2314,0.2278,0.4281,0.432,0.5546,0.565,124.95,142.1,206.06,222.14
+SeedCoder 8B Unsloth 4-bit,0.61,0.62,0.0,0.0,0.9285,0.9227,0.3669,0.3676,0.1712,0.1729,0.2291,0.2312,0.4396,0.4381,0.5798,0.5816,139.49,139.31,218.71,216.01
