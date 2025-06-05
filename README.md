@@ -81,10 +81,10 @@ python main.py #To be implemented
 <!-- ### Using the notebooks - Upcoming -->
 
 
-## 📚 Dataset
+## 📚 Dataset: ManimBench v1
 The dataset used for fine-tuning consists of Manim code snippets paired with natural language descriptions. It is available in both CSV and Parquet formats in the `data/` directory.
 
-The dataset can be also accessed directly from the [HuggingFace Hub: ManimBench v1](https://huggingface.co/datasets/SuienR/ManimBench-v1).
+The dataset can be also accessed directly from the [HuggingFace Hub](https://huggingface.co/datasets/SuienR/ManimBench-v1) and [Kaggle](https://www.kaggle.com/datasets/ravidussilva/manim-sft/).
 
 The dataset is structured as follows:
 
