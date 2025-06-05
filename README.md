@@ -7,6 +7,10 @@
 
 Fine-tune smaller LLM models to generate high-quality [Manim](https://www.manim.community/) animation code from natural language descriptions.
 
+**📝 Research Paper: [Upcoming](https://arxiv.org/abs/....)**
+
+**🚧 Note:** This project is still in development. Some features may not be fully implemented or tested yet.
+
 ## 📋 Overview
 
 This project allows you to generate Manim code from textual descriptions using fine-tuned language models. It is designed to help educators, content creators, and developers create educational animations easily by leveraging the power of relatively smaller language models.
@@ -15,10 +19,6 @@ The project includes:
 - A dataset of Manim code and corresponding textual descriptions
 - Jupyter notebooks for testing and development
 - Example prompts and generated Manim code
-
-**🚧 Note:** This project is still in development. Some features may not be fully implemented or tested yet.
-
-**📝 Research Paper: [Upcoming](https://arxiv.org/abs/....)**
 ##
 
 ## 🛠️ Installation
