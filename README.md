@@ -3,6 +3,8 @@
 [![License: CC-BY-NC-SA-4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Python Version](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![HuggingFace Model](https://img.shields.io/badge/HuggingFace-Model-orange.svg)](https://huggingface.co/models)
+[![HuggingFace Dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue.svg)](https://huggingface.co/datasets/SuienR/ManimBench-v1)
+
 
 
 Fine-tune smaller LLM models to generate high-quality [Manim](https://www.manim.community/) animation code from natural language descriptions.
@@ -82,7 +84,7 @@ python main.py #To be implemented
 ## 📚 Dataset
 The dataset used for fine-tuning consists of Manim code snippets paired with natural language descriptions. It is available in both CSV and Parquet formats in the `data/` directory.
 
-The dataset can be also accessed directly from the Hugging Face Hub: [ManimBench v1](https://huggingface.co/datasets/SuienR/ManimBench-v1).
+The dataset can be also accessed directly from the [HuggingFace Hub: ManimBench v1](https://huggingface.co/datasets/SuienR/ManimBench-v1).
 
 The dataset is structured as follows:
 
