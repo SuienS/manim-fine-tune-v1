@@ -86,6 +86,8 @@ The dataset used for fine-tuning consists of Manim code snippets paired with nat
 
 The dataset can be also accessed directly from the [HuggingFace Hub](https://huggingface.co/datasets/SuienR/ManimBench-v1) and [Kaggle](https://www.kaggle.com/datasets/ravidussilva/manim-sft/).
 
+### Dataset Details
+
 The dataset is structured as follows:
 
 | Column Name | Description |
@@ -95,6 +97,37 @@ The dataset is structured as follows:
 | `Code` | Corresponding Manim code snippet |
 | `Type` | Complexity type of the animation: `Basic`, `Intermediate`, `Advanced` |
 | `Split` | Split the sample belongs to: `train` or `test` |
+
+### Dataset Usage
+You can use the dataset for training and evaluation by loading it with libraries like Pandas or directly using the HuggingFace Datasets library. The dataset is designed to be compatible with various machine learning frameworks.
+
+#### Loading the dataset with HuggingFace Datasets
+
+```python
+from datasets import load_dataset
+dataset = load_dataset("SuienR/ManimBench-v1", split="train")
+
+# Top 5 samples
+for sample in dataset.select(range(5)):
+    print(sample["Generated Description"])
+    print(sample["Code"])
+```
+
+### Loading the dataset with Pandas
+
+```python
+import pandas as pd
+
+splits = {'train': 'manim_sft_dataset_train.parquet', 'test': 'manim_sft_dataset_train.parquet', 'all': 'manim_sft_dataset_all.parquet'}
+df = pd.read_parquet("hf://datasets/SuienR/ManimBench-v1/" + splits["train"])
+
+# Top 5 samples
+for index, row in dataset.head().iterrows():
+    print(row["Generated Description"])
+    print(row["Code"])
+```
+
+
 
 ## 📂 Project Structure
 
